@@ -1,0 +1,1 @@
+A collection of various templates for use with pandoc, LaTeX, etc.
