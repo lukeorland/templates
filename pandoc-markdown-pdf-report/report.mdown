@@ -1,0 +1,8 @@
+[Statistical Language Modeling Toolkit](http://mi.eng.cam.ac.uk/~prc14/toolkit.html)
+Discriminative Training of LM [@Jiang2010; @Acero2000].
+
+* Convex Optimization: Linear programming (LP) [@Alon2009]
+* Discriminative Adaptation:  Constrained optimization -> LP
+
+# References
+
