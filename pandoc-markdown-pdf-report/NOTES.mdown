@@ -1,7 +1,7 @@
 This can be used in conjunction with Mendeley as follows:
 
 1. Configure Mendeley: Enable BibTeX syncing
-2. Right click on the relevant document row in Medeley, select "Copy Latex Citation"
-3. Paste into the markdown text file. One may need to reformat the Latex format `\cite{Acero2000}` to pandoc-markdown format `@Acero2000` (until what I think is a citeproc.hs or pandoc bug gets fixed).
+2. Right click on the relevant document row in Medeley, select "Copy LaTeX Citation"
+3. Paste into the markdown text file. One may need to reformat the Latex format `\cite{Acero2000}` to pandoc-markdown format `@Acero2000` (until what I think is a citeproc.hs or pandoc bug gets fixed). UPDATE: it's not a bug. Something with my custom `mytemplate.tex` causes the LaTeX citation format to break.
 4. Make sure the symlink `library.bib` is pointing to the proper location.
 5. Save and run `make`.
